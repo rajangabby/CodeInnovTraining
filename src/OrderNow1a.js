@@ -12,6 +12,7 @@ function OrderNow1a() {
           .then((data) => {
            
             console.log(data)
+            console.log(data.items[0].id)
           })
           .catch(console.log)
     
@@ -23,7 +24,7 @@ function OrderNow1a() {
         <Form className="Orderinfo">
         <Form.Field>
             <label>Pizza Type</label>
-            <input placeholder='Pepperoni + Jalapenos' />
+            <input placeholder='Pepperoni ' />
         </Form.Field>
         <p></p>
         <Form.Field>
