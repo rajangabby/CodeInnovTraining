@@ -1,0 +1,25 @@
+.OrderComplete {
+    height: 100vh !important;
+    background-image: url("/pizza3.jpg");
+  background-size:contain;
+  background-position:top;
+  background: cover;
+}
+
+.OrderComplete-header{
+    
+    font-family: 'Phosphate-Solid';
+    padding-top: 25vh;
+    color: #C00845;
+    text-shadow: -5px 0 #B0F0E8, 0 5px #B0F0E8, 5px 0 #B0F0E8, 0 -5px #B0F0E8;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.track-btn{
+    color: #C00845 !important;
+    background-color: #B0F0E8 !important;
+    text-shadow: 0px 0 #B0F0E8, 0 0px #B0F0E8, 0px 0 #B0F0E8, 0 0px #B0F0E8;
+
+}

@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.Login{
+  text-align: right;
+  background-color: #B0F0E8;
+  border-radius: 0px;
+  font-family: Arial, Helvetica, sans-serif, bold;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,14 +20,33 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("/pizza3.jpg");
+  background-size:contain;
+  background-position:top;
+  background: cover;
+  font-family: 'Phosphate-solid';
+  font-size: 45px !important;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #C00845;
+  text-shadow: -5px 0 #B0F0E8, 0 5px #B0F0E8, 5px 0 #B0F0E8, 0 -5px #B0F0E8;
+
+}
+
+.button.ui.button {
+    color: #C00845!important;
+    font-family: 'Phosphate-inline';
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #B0F0E8;
+    border-color: #C00845;
+}
+
+.ordernow-btn{
+  color:  #C00845;
 }
 
 .App-link {

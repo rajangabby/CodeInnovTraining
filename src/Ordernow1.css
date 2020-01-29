@@ -1,0 +1,27 @@
+.Order-now{
+
+}
+.Ordernow1 {
+  text-align: center;
+  padding-top: 40vh !important;
+  background-image: url("/pizza3.jpg");
+  background-size:contain;
+  background-position:top;
+  background: cover;
+  font-family: 'Phosphate-solid';
+  color: #C00845;
+  text-shadow: -5px 0 #B0F0E8, 0 5px #B0F0E8, 5px 0 #B0F0E8, 0 -5px #B0F0E8;
+
+  font-size: 40px !important;
+  height: 100vh !important;
+  }
+
+
+.orderrecent-btn {
+  border-radius: 10px;
+  color: #C00845;
+}
+
+.ordercustom-btn {
+  color: #C00845;
+}

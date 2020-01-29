@@ -1,0 +1,32 @@
+
+.OrderNow1a {
+  text-align: center;
+  padding-top: 20vh !important;
+  background-image: url("/pizza3.jpg");
+  background-size:contain;
+  background-position:top;
+  background: cover;
+  font-family: 'Phosphate-solid';
+  color: #C00845;
+  text-shadow: -5px 0 #B0F0E8, 0 5px #B0F0E8, 5px 0 #B0F0E8, 0 -5px #B0F0E8;
+  font-size: 40px !important;
+  height: 100vh !important;
+  }
+
+  .Orderinfo{
+      background-color: white;
+      border-radius: 65px;
+      padding-top:20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 20px;
+      font-size: 15px!important;
+      text-shadow: none !important;
+  }
+
+  .confirm-btn{
+    color: #C00845 !important;
+    background-color: #B0F0E8 !important;
+    text-shadow: 0px 0 #B0F0E8, 0 0px #B0F0E8, 0px 0 #B0F0E8, 0 0px #B0F0E8;
+  }
+
