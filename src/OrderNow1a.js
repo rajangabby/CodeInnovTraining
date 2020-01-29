@@ -12,16 +12,16 @@ function OrderNow1a() {
         fetch('https://smtoa9hw8m0maww-customerdw.adb.us-ashburn-1.oraclecloudapps.com/ords/kevin/orderdetails/order/+17139994444')
           .then(res => res.json())
           .then((data) => {
-            OrdsData.push(data[0]);
+            OrdsData.push(data.items[0]);
             // console.log(data)
-            console.log(data.items[0])
+            // console.log(data.items[0])
            
           })
           .catch(console.log)
 
             console.log("Console ORDS")
            
-          console.log(OrdsData[0].items[0].manifest)
+          console.log(OrdsData)
     
   return (
     <div className="OrderNow1a">
