@@ -21,7 +21,7 @@ function OrderNow1a() {
 
             console.log("Console ORDS")
            
-          console.log(OrdsData[0].manifest)
+          console.log(OrdsData[0])
     
   return (
     <div className="OrderNow1a">
