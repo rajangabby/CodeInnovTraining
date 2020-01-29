@@ -13,9 +13,14 @@ function OrderNow1a() {
           .then((data) => {
             OrdsData = data;
             console.log(data)
-            console.log(OrdsData.items[0].id)
+           
           })
           .catch(console.log)
+
+
+            console.log("Console ORDS")
+            console.log(OrdsData    )
+          console.log(OrdsData.items[0].manifest)
     
   return (
     <div className="OrderNow1a">
@@ -25,7 +30,7 @@ function OrderNow1a() {
         <Form className="Orderinfo">
         <Form.Field>
             <label>Pizza Type</label>
-            <input placeholder={this.OrdsData.items[0].manifest} />
+            <input placeholder={OrdsData.items[0].manifest} />
         </Form.Field>
         <p></p>
         <Form.Field>
