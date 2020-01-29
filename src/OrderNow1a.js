@@ -4,15 +4,16 @@ import { Grid, Form, Checkbox, Image, Icon, Button, Segment, Header} from 'seman
 import "./OrderNow1a.css";
 
 
+
 function OrderNow1a() {
 
-    
+    var OrdsData = [];
         fetch('https://smtoa9hw8m0maww-customerdw.adb.us-ashburn-1.oraclecloudapps.com/ords/kevin/orderdetails/order/+17139994444')
           .then(res => res.json())
           .then((data) => {
-           
+            OrdsData = data;
             console.log(data)
-            console.log(data.items[0].id)
+            console.log(OrdsData.items[0].id)
           })
           .catch(console.log)
     
