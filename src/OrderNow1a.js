@@ -12,7 +12,6 @@ function OrderNow1a() {
           .then(res => res.json())
           .then((data) => {
 
-            Odata.push(data);
             // this.dataa = data;
             OrdsData.push(data.items[0]);
            
