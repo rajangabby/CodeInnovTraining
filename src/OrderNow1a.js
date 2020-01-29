@@ -14,7 +14,7 @@ function OrderNow1a() {
           .then((data) => {
             OrdsData.push(data[0]);
             // console.log(data)
-            console.log(data[0])
+            console.log(data.items[0])
            
           })
           .catch(console.log)
