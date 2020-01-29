@@ -19,7 +19,7 @@ function OrderNow1a() {
           .catch(console.log)
 
             console.log("Console ORDS")
-           
+           console.log( OrdsData[0])
   return (
     <div className="OrderNow1a">
       <header className="OrderNow1a-header">
