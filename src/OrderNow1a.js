@@ -11,7 +11,7 @@ function OrderNow1a() {
         fetch('https://smtoa9hw8m0maww-customerdw.adb.us-ashburn-1.oraclecloudapps.com/ords/kevin/orderdetails/order/+17139994444')
           .then(res => res.json())
           .then((data) => {
-            OrdsData = data;
+            OrdsData.push(data);
             console.log(data)
            
           })
