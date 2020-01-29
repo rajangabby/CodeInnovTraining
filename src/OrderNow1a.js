@@ -21,7 +21,7 @@ function OrderNow1a() {
 
             console.log("Console ORDS")
            
-          console.log(OrdsData)
+          console.log(OrdsData[0].manifest)
     
   return (
     <div className="OrderNow1a">
@@ -31,7 +31,7 @@ function OrderNow1a() {
         <Form className="Orderinfo">
         <Form.Field>
             <label>Pizza Type</label>
-            <input placeholder={OrdsData[0].items[0].manifest} />
+            <input placeholder={OrdsData[0].manifest} />
         </Form.Field>
         <p></p>
         <Form.Field>
