@@ -14,12 +14,12 @@ function OrderNow1a() {
 
             // this.dataa = data;
             OrdsData.push(data.items[0]);
-           
+            console.log("Console ORDS")
+            console.log( data)
+
           })
           .catch(console.log)
 
-            console.log("Console ORDS")
-           console.log( OrdsData[0])
   return (
     <div className="OrderNow1a">
       <header className="OrderNow1a-header">
