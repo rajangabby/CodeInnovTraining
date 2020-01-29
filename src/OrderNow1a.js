@@ -25,7 +25,7 @@ function OrderNow1a() {
         <Form className="Orderinfo">
         <Form.Field>
             <label>Pizza Type</label>
-            <input placeholder='Pepperoni ' />
+            <input placeholder={OrdsData.items[0].manifest} />
         </Form.Field>
         <p></p>
         <Form.Field>
