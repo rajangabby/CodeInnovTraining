@@ -4,7 +4,7 @@ import { Grid, Form, Checkbox, Image, Icon, Button, Segment, Header} from 'seman
 import "./OrderNow1a.css";
 
 
-var OrdsData = [];
+var OrdsData = []
 
 function OrderNow1a() {
 
@@ -12,14 +12,15 @@ function OrderNow1a() {
         fetch('https://smtoa9hw8m0maww-customerdw.adb.us-ashburn-1.oraclecloudapps.com/ords/kevin/orderdetails/order/+17139994444')
           .then(res => res.json())
           .then((data) => {
-            OrdsData.push(data);
+            OrdsData.push(data[0]);
             // console.log(data)
+            console.log(data[0])
            
           })
           .catch(console.log)
 
             console.log("Console ORDS")
-            console.log(OrdsData[0])
+           
           console.log(OrdsData[0].items[0].manifest)
     
   return (
